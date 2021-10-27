@@ -1,0 +1,198 @@
+
+
+
+
+/* common Css */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+/* colommon css */
+nav{}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    width: 100px;
+}
+nav ul li a{
+    color: #333;
+    font-weight: 700;
+}
+
+/* slider  */
+
+
+/* slider End */
+
+
+
+
+
+/* start services */
+
+
+.icon{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+.icon i{
+    transition: .7s;
+}
+.SerBox{
+   
+   
+    
+
+   
+    position: relative;
+    transition: .7s;
+}
+.SerBox:hover i{
+    color: #333;
+}
+.SerBox::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: #DC3545;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: .5s;
+}
+.SerBox:hover::before{
+    height: 100%;
+}
+.SerBox:hover{
+    color: white;
+}
+
+/* End services */
+
+/* start Skill */
+
+.skillBox{}
+.skillName{}
+.skillbar{
+    width: 100%;
+    background: #333;
+    height: 10px;
+    
+    border-radius: 20px;
+    position: relative;
+}
+.skillbar .per{
+    position: absolute;
+    background: #DC3545;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    animation: mymove 2.5s 1;
+   
+
+
+}
+
+@keyframes mymove {
+    from {width: 0px;}
+    to {width: 100%;}
+  }
+/* End Skill */
+
+
+
+/* Protflio start */
+
+.card{
+   
+   
+}
+.subBox{
+    background-color: rgba(5, 0, 0, 0.514);
+    
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    height: 86%;
+    display: none;
+   
+   
+    text-align: center;
+}
+.subBox h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.card:hover .subBox{
+    display: block;
+   
+}
+.modal-body{
+    display: block;
+}
+
+#protfolio{
+   
+}
+/* Protflio End */
+
+/* contact start */
+#Contact{
+    background-color: #f1f2f6;
+}
+.conIcon{}
+.conIcon i{
+    font-size: 100px;
+    color: #eb4d4b;
+}
+#Contact p{
+    margin-bottom: 0;
+}
+.address{
+ 
+}
+address p{
+    color: #333;
+    font-size: 18px;
+    
+}
+address p i{
+    color: #eb4d4b;
+    font-size: 20px;
+}
+/* contact End */
+
+/* footer strat */
+
+#footer{
+    background-color:  #57606f;
+    
+}
+#footer i{
+    font-size: 50px;
+    margin: 10px;
+    color: #eb4d4b;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* footer End */
