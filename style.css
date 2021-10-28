@@ -120,7 +120,7 @@ nav ul li a{
 /* Protflio start */
 
 .card{
-   
+   margin-bottom: 10px;
    
 }
 .subBox{
@@ -129,7 +129,7 @@ nav ul li a{
     color: white;
     font-weight: 700;
     width: 100%;
-    height: 86%;
+    height: 100%;
     display: none;
    
    
@@ -152,6 +152,9 @@ nav ul li a{
 
 #protfolio{
    
+}
+#protfolio button{
+    z-index: 99;
 }
 /* Protflio End */
 
